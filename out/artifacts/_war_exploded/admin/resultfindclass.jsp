@@ -3,18 +3,18 @@
   Created by IntelliJ IDEA.
   User: 孟晨
   Date: 2017/11/10
-  Time: 15:29
+  Time: 22:27
   To change this template use File | Settings | File Templates.
 --%>
 <%@ page contentType="text/html;charset=UTF-8"
          language="java" %>
 <%
     String path = request.getContextPath();
-    List<MyClass> allClass = (List<MyClass>) request.getAttribute("allClass");
+    List<MyClass> listClass = (List<MyClass>) request.getAttribute("listClass");
 %>
 <html>
 <head>
-    <title>班级列表</title>
+    <title>查找班级结果</title>
     <link rel="stylesheet" href="<%=path%>/admin/css/bootstrap.min.css">
     <script src="<%=path%>/admin/Js/bootstrap.js"></script>
     <script>
@@ -36,7 +36,7 @@
 </head>
 <body>
 <%
-    if (allClass.size() == 0) {
+    if (listClass.size() == 0) {
         out.println("没有班级信息");
     } else {
 %>
@@ -55,7 +55,7 @@
     </thead>
     <tbody>
     <%
-        for (MyClass myclass : allClass) {
+        for (MyClass myclass : listClass) {
     %>
     <tr>
         <td><%=myclass.getClassId()%>

@@ -81,7 +81,7 @@
                         class="icon-caret-right">添加班级</span></a>
             </li>
             <li>
-                <a href="" target="right"><span
+                <a href="./findclass.jsp" target="right"><span
                         class="icon-caret-right">查找班级</span></a>
             </li>
         </ul>

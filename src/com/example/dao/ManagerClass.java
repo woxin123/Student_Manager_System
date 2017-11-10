@@ -12,4 +12,5 @@ public interface ManagerClass {
     boolean addClassStudent(String classId); // 当添加学生是执行这个方法
     boolean minusClassStudent(String classId);  // 当删除学生时执行这个方法
     List<MyClass> allClass();
+    List<MyClass> findSomeClass(String role, String type);
 }

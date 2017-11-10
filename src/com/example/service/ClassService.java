@@ -11,4 +11,5 @@ public interface ClassService {
     boolean modifyClass(MyClass myClass);
     MyClass findClass(String role, String type);
     List<MyClass> allTeacher();
+    List<MyClass> findSomeClass(String role, String type);
 }
