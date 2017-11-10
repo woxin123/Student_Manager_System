@@ -44,10 +44,12 @@ public class ManagerClassImpl implements ManagerClass {
         Connection conn = mysql.getConnection();
         try {
             Statement stmt = conn.createStatement();
-            isOK = stmt.execute("delete from class where class_id='" + classId + "';");
+            stmt.execute("delete from class where class_id='" + classId + "';");
+            isOK = true;
         } catch (SQLException e) {
             e.printStackTrace();
         }
+        mysql.Close();
         return isOK;
     }
 
