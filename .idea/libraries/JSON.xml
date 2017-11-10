@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="JSON依赖的包">
+    <CLASSES>
+      <root url="file://E:/Java项目依赖的一些包/JSON依赖的包" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="file://E:/Java项目依赖的一些包/JSON依赖的包" />
+    </SOURCES>
+    <jarDirectory url="file://E:/Java项目依赖的一些包/JSON依赖的包" recursive="false" />
+    <jarDirectory url="file://E:/Java项目依赖的一些包/JSON依赖的包" recursive="false" type="SOURCES" />
+  </library>
+</component>
