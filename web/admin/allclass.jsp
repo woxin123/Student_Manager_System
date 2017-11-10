@@ -17,6 +17,22 @@
     <title>班级列表</title>
     <link rel="stylesheet" href="<%=path%>/admin/css/bootstrap.min.css">
     <script src="<%=path%>/admin/Js/bootstrap.js"></script>
+    <script>
+        function deleteClass() {
+            var msg="是否删除";
+            if (confirm(msg) == true)
+                return true;
+            else
+                return false;
+        };
+        function modifyClass() {
+            var msg="是否修改";
+            if (confirm(msg) == true)
+                return true;
+            else
+                return false;
+        }
+    </script>
 </head>
 <body>
 <%
@@ -54,7 +70,9 @@
         </td>
         <td><%=myclass.getTotal()%>
         </td>
-        <td><a href="DeleteClass?" </td>
+        <td><a href="GetModifyClassMessage?classId=<%=myclass.getClassId()%>"><button onclick="javascript:return modifyClass()">修改</button> </a></td>
+        <td><a href="DeleteClass?classId=<%=myclass.getClassId()%>">
+            <button onclick="javascript:return deleteClass()">删除</button></a> </td>
     </tr>
     <%
             }
