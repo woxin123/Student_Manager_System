@@ -29,57 +29,59 @@ public class AddStudent extends HttpServlet {
         }
         student.setStudentId(studentId);
         String studentName = request.getParameter("studentName");
+        student.setName(studentName);
         if (studentName.length() < 1) {
             errors.put("studentName", "该姓名太短");
         } else if (studentName.length() > 4) {
             errors.put("studetName", "该名称太长");
-        } else
-            student.setName(studentName);
+        }
         String studentGender = request.getParameter("studentGender");
         student.setGender(studentGender.charAt(0));
-        int studentAge = Integer.parseInt(request.getParameter("studentAge"));
-        if (studentAge < 0 || studentAge > 100) {
-            errors.put("studentAge", "年龄符合要求");
+        if (request.getParameter("studentAge").equals("")) {
+            errors.put("studentAge", "年龄不为为空");
         } else {
-            student.setAge(studentAge);
+            int studentAge = Integer.parseInt(request.getParameter("studentAge"));
+                student.setAge(studentAge);
+            if (studentAge < 0 || studentAge > 100) {
+                errors.put("studentAge", "年龄不符合要求");
+            }
         }
         String studentCollege = request.getParameter("studentCollege");
         if (studentCollege.equals("")) {
             errors.put("studentCollege", "学院不能为空");
+            student.setCollege(studentCollege);
         } else if (!StudentUtil.checkCollege(studentCollege)) {
             errors.put("studentCollege", "学院不合法");
-        } else
-            student.setCollege(studentCollege);
+        }
         String studentMajor = request.getParameter("studentMajor");
+            student.setMajor(studentMajor);
         if (studentMajor.equals("")) {
             errors.put("studentMajor", "专业不能为空");
         } else if (!StudentUtil.checkMajor(studentMajor)) {
             errors.put("studentMajor", "专业不合法");
-        } else {
-            student.setMajor(studentMajor);
         }
-        String classId = request.getParameter("classId");
-        if (classId.equals("")) {
-            errors.put("classId", "班级不能为空");
-        } else if (!StudentUtil.checkClass(classId)) {
-            errors.put("classId", "班级不存在");
-        } else
+        String classId = request.getParameter("studentClass");
             student.setStudentClass(classId);
-        String admissionDate = request.getParameter("admissionDate");
+        if (classId.equals("")) {
+            errors.put("studentClass", "班级不能为空");
+        } else if (!StudentUtil.checkClass(classId)) {
+            errors.put("studentClass", "班级不存在");
+        }
+        String admissionDate = request.getParameter("studentAdmissionDate");
         if (admissionDate.equals("")) {
-            errors.put("admissionDate", "入学时间不能为空");
-        } else
+            errors.put("studentAdmissionDate", "入学时间不能为空");
+        }
             student.setAdmissionDate(admissionDate);
-        String phone = request.getParameter("phone");
+        String phone = request.getParameter("studentPhone");
         if (phone.equals("")) {
             student.setPhone(null);
         }
-        String address = request.getParameter("address");
+        String address = request.getParameter("studentAddress");
         if (address.equals(""))
             student.setAddress(null);
         else
             student.setAddress(address);
-        String dormitory = request.getParameter("dormitory");
+        String dormitory = request.getParameter("studentDormitory");
         if (dormitory.equals(""))
             student.setDormitory(null);
         else
@@ -89,6 +91,7 @@ public class AddStudent extends HttpServlet {
             service.addStudent(student);
             request.getRequestDispatcher("/admin/addstudent.jsp").forward(request, response);
         } else {
+            request.setAttribute("student", student);
             request.setAttribute("errors", errors);
             request.getRequestDispatcher("/admin/addstudent.jsp").forward(request, response);
         }
