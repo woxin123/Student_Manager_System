@@ -11,4 +11,5 @@ public interface ManagerStudent {
     boolean deleteStudent(String studentId);
     boolean modifyStudent(Student student);
     List<Student> allStudents();
+    List<Student> findSomeStudent(String role, String type);
 }

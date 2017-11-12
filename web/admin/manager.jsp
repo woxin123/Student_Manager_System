@@ -19,7 +19,7 @@
 <div class="header bg-main">
     <div class="logo margin-big-left fadein-top">
         <h1>
-            <img src="image/huoying2.jpg"
+            <img src="${pageContext.request.contextPath}/admin/image/huoying2.jpg"
                  class="radius-circle rotate-hover"
                  height="50">
         </h1>

@@ -26,11 +26,13 @@ public class Login extends HttpServlet {
         request.setCharacterEncoding("UTF-8");
         response.setContentType("text/html;charset=UTF-8");
         User user = new User();
-        System.out.println("aaaaaaaaaaa");
         user.setUsername(request.getParameter("username"));
         user.setPassword(request.getParameter("password"));
         String type = request.getParameter("type");
-        System.out.println(user.getUsername() + "aaaaaaaaaaa");
+        String verification = request.getParameter("verification");
+        String yanzhengma = (String) request.getSession().getAttribute("piccode");
+        System.out.println(yanzhengma);
+        System.out.println(user.getUsername() + user.getPassword());
         Map<String, String> errors = new HashMap<>();
         boolean isOk = false;
         if (type.equals("学生")) {
@@ -43,6 +45,8 @@ public class Login extends HttpServlet {
                 Teacher teacher = mantea.find(user.getUsername(), user.getPassword());
                 if (teacher == null) {
                     errors.put("password", "密码错误");
+                } else if (!yanzhengma.equals(verification)) {
+                    errors.put("verification", "验证码错误");
                 } else
                     isOk = true;
             }
@@ -54,19 +58,18 @@ public class Login extends HttpServlet {
                 Admin admin = manager.find(user.getUsername(), user.getPassword());
                 if (admin == null) {
                     errors.put("password", "密码错误!");
-                } else {
+                } else if (!yanzhengma.equals(verification)) {
+                    errors.put("verification", "验证码错误");
+                } else
                     isOk = true;
-                    request.getRequestDispatcher("/admin/manager.jsp").forward(request, response);
-                }
             }
         }
         if (isOk == false) {
+            request.setAttribute("user", user);
             request.setAttribute("errors", errors);
             request.getRequestDispatcher(request.getContextPath() + "/login.jsp").forward(request, response);
         } else {
-            HttpSession session = request.getSession();
-            session.setAttribute("user", user);
-            System.out.println("登陆成功");
+            response.sendRedirect("admin/manager.jsp");
         }
     }
 
