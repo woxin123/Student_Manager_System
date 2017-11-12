@@ -41,27 +41,27 @@ public class AddStudent extends HttpServlet {
             errors.put("studentAge", "年龄不为为空");
         } else {
             int studentAge = Integer.parseInt(request.getParameter("studentAge"));
-                student.setAge(studentAge);
+            student.setAge(studentAge);
             if (studentAge < 0 || studentAge > 100) {
                 errors.put("studentAge", "年龄不符合要求");
             }
         }
         String studentCollege = request.getParameter("studentCollege");
+        student.setCollege(studentCollege);
         if (studentCollege.equals("")) {
             errors.put("studentCollege", "学院不能为空");
-            student.setCollege(studentCollege);
         } else if (!StudentUtil.checkCollege(studentCollege)) {
             errors.put("studentCollege", "学院不合法");
         }
         String studentMajor = request.getParameter("studentMajor");
-            student.setMajor(studentMajor);
+        student.setMajor(studentMajor);
         if (studentMajor.equals("")) {
             errors.put("studentMajor", "专业不能为空");
         } else if (!StudentUtil.checkMajor(studentMajor)) {
             errors.put("studentMajor", "专业不合法");
         }
         String classId = request.getParameter("studentClass");
-            student.setStudentClass(classId);
+        student.setStudentClass(classId);
         if (classId.equals("")) {
             errors.put("studentClass", "班级不能为空");
         } else if (!StudentUtil.checkClass(classId)) {
@@ -71,19 +71,19 @@ public class AddStudent extends HttpServlet {
         if (admissionDate.equals("")) {
             errors.put("studentAdmissionDate", "入学时间不能为空");
         }
-            student.setAdmissionDate(admissionDate);
+        student.setAdmissionDate(admissionDate);
         String phone = request.getParameter("studentPhone");
         if (phone.equals("")) {
-            student.setPhone(null);
+            student.setPhone("");
         }
         String address = request.getParameter("studentAddress");
         if (address.equals(""))
-            student.setAddress(null);
+            student.setAddress("");
         else
             student.setAddress(address);
         String dormitory = request.getParameter("studentDormitory");
         if (dormitory.equals(""))
-            student.setDormitory(null);
+            student.setDormitory("");
         else
             student.setDormitory(dormitory);
         if (errors.isEmpty()) {

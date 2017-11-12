@@ -11,7 +11,7 @@
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
     <title>管理</title>
     <script src="Js/jquery-3.2.1.min.js"></script>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}css/bootstrap.min.css">
     <link rel="stylesheet" href="css/admin.css">
     <link rel="stylesheet" href="css/pintuer.css">
 </head>
@@ -90,7 +90,7 @@
         </h2>
         <ul style="display: block">
             <li>
-                <a href="" target="right"><span
+                <a href="/AllStudent" target="right"><span
                         class="icon-caret-right">学生列表</span></a>
             </li>
             <li>

@@ -5,6 +5,8 @@ import com.example.domain.Student;
 import com.example.utils.MySQLCoonnection;
 
 import java.sql.*;
+import java.util.LinkedList;
+import java.util.List;
 
 public class ManagerStudentImpl implements ManagerStudent {
     @Override
@@ -103,7 +105,8 @@ public class ManagerStudentImpl implements ManagerStudent {
         Connection conn = mysql.getConnection();
         try {
             Statement stmt = conn.createStatement();
-            isOK = stmt.execute("DELETE FROM student where student_id='" + studentId + "';");
+            stmt.execute("DELETE FROM student where student_id='" + studentId + "';");
+            isOK = true;
         } catch (SQLException e) {
             e.printStackTrace();
         }
@@ -118,9 +121,9 @@ public class ManagerStudentImpl implements ManagerStudent {
         Connection conn = mysql.getConnection();
         try {
             PreparedStatement pstmt = conn.prepareStatement("UPDATE student set student_name=?, " +
-                    "set student_gender=?, set student_age=?, set student_college=?, set class_id=?" +
-                    " set student_major=?, set admissionDate=?, set student_phone=?, set student_address=? " +
-                    "set student_dormitor=?;");
+                    " student_gender=?, student_age=?, student_college=?, class_id=?, " +
+                    " student_major=?, admissionDate=?,  student_phone=?,  student_address=?, " +
+                    " student_dormitor=? where student_id='" + student.getStudentId() + "';");
             pstmt.setString(1, student.getName());
             pstmt.setString(2, String.valueOf(student.getGender()));
             pstmt.setInt(3, student.getAge());
@@ -137,6 +140,35 @@ public class ManagerStudentImpl implements ManagerStudent {
             e.printStackTrace();
         }
         return isOK;
+    }
+
+    @Override
+    public List<Student> allStudents() {
+        List<Student> allStudents = new LinkedList<>();
+        MySQLCoonnection mysql = new MySQLCoonnection();
+        Connection conn = mysql.getConnection();
+        try {
+            Statement stmt = conn.createStatement();
+            ResultSet rs = stmt.executeQuery("SELECT * from student;");
+            while (rs.next()) {
+                Student student = new Student();
+                student.setStudentId(rs.getString(1));
+                student.setName(rs.getString(2));
+                student.setGender(rs.getString(3).charAt(0));
+                student.setAge(rs.getInt(4));
+                student.setCollege(rs.getString(5));
+                student.setStudentClass(rs.getString(6));
+                student.setMajor(rs.getString(7));
+                student.setAdmissionDate(rs.getString(8));
+                student.setPhone(rs.getString(9));
+                student.setAddress(rs.getString(10));
+                student.setDormitory(rs.getString(11));
+                allStudents.add(student);
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return allStudents;
     }
 
     private String setDefaultPassword() {
