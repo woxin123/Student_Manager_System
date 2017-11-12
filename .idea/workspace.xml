@@ -7,33 +7,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="828300f0-a37b-47c6-b5a6-d217030c9c1e" name="默认的" comment="11月10日的第三次提交 班级的查找">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/web/contrall/AllStudent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/web/contrall/DeleteStudet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/web/contrall/GetStudentMessage.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/web/contrall/ModifyStudent.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/admin/allstudent.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/admin/modifystudent.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com/example/web/contrall/FindStudents.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/admin/findstudent.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/admin/resultfindstudent.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/WEB-INF/classes/com/example/dao/ManagerStudent.class" afterPath="$PROJECT_DIR$/out/artifacts/_war_exploded/WEB-INF/classes/com/example/dao/ManagerStudent.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/WEB-INF/classes/com/example/daoImp/ManagerClassImpl.class" afterPath="$PROJECT_DIR$/out/artifacts/_war_exploded/WEB-INF/classes/com/example/daoImp/ManagerClassImpl.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/WEB-INF/classes/com/example/daoImp/ManagerStudentImpl.class" afterPath="$PROJECT_DIR$/out/artifacts/_war_exploded/WEB-INF/classes/com/example/daoImp/ManagerStudentImpl.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/WEB-INF/classes/com/example/service/StudentService.class" afterPath="$PROJECT_DIR$/out/artifacts/_war_exploded/WEB-INF/classes/com/example/service/StudentService.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/WEB-INF/classes/com/example/service/impl/StudentServiceImpl.class" afterPath="$PROJECT_DIR$/out/artifacts/_war_exploded/WEB-INF/classes/com/example/service/impl/StudentServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/WEB-INF/classes/com/example/utils/StudentUtil.class" afterPath="$PROJECT_DIR$/out/artifacts/_war_exploded/WEB-INF/classes/com/example/utils/StudentUtil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/WEB-INF/classes/com/example/web/contrall/AddStudent.class" afterPath="$PROJECT_DIR$/out/artifacts/_war_exploded/WEB-INF/classes/com/example/web/contrall/AddStudent.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/学生管理系统/com/example/dao/ManagerStudent.class" afterPath="$PROJECT_DIR$/out/production/学生管理系统/com/example/dao/ManagerStudent.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/学生管理系统/com/example/daoImp/ManagerClassImpl.class" afterPath="$PROJECT_DIR$/out/production/学生管理系统/com/example/daoImp/ManagerClassImpl.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/学生管理系统/com/example/daoImp/ManagerStudentImpl.class" afterPath="$PROJECT_DIR$/out/production/学生管理系统/com/example/daoImp/ManagerStudentImpl.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/学生管理系统/com/example/service/StudentService.class" afterPath="$PROJECT_DIR$/out/production/学生管理系统/com/example/service/StudentService.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/学生管理系统/com/example/service/impl/StudentServiceImpl.class" afterPath="$PROJECT_DIR$/out/production/学生管理系统/com/example/service/impl/StudentServiceImpl.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/学生管理系统/com/example/utils/StudentUtil.class" afterPath="$PROJECT_DIR$/out/production/学生管理系统/com/example/utils/StudentUtil.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/学生管理系统/com/example/web/contrall/AddStudent.class" afterPath="$PROJECT_DIR$/out/production/学生管理系统/com/example/web/contrall/AddStudent.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/admin/addstudent.jsp" afterPath="$PROJECT_DIR$/out/artifacts/_war_exploded/admin/addstudent.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/artifacts/_war_exploded/admin/manager.jsp" afterPath="$PROJECT_DIR$/out/artifacts/_war_exploded/admin/manager.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/dao/ManagerStudent.java" afterPath="$PROJECT_DIR$/src/com/example/dao/ManagerStudent.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/daoImp/ManagerClassImpl.java" afterPath="$PROJECT_DIR$/src/com/example/daoImp/ManagerClassImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/daoImp/ManagerStudentImpl.java" afterPath="$PROJECT_DIR$/src/com/example/daoImp/ManagerStudentImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/service/StudentService.java" afterPath="$PROJECT_DIR$/src/com/example/service/StudentService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/service/impl/StudentServiceImpl.java" afterPath="$PROJECT_DIR$/src/com/example/service/impl/StudentServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/utils/StudentUtil.java" afterPath="$PROJECT_DIR$/src/com/example/utils/StudentUtil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com/example/web/contrall/AddStudent.java" afterPath="$PROJECT_DIR$/src/com/example/web/contrall/AddStudent.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/admin/manager.jsp" afterPath="$PROJECT_DIR$/web/admin/manager.jsp" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -73,43 +66,55 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="manager.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/admin/manager.jsp">
+      <file leaf-file-name="StudentServiceImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/service/impl/StudentServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="19" column="49" lean-forward="true" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
+            <state relative-caret-position="218">
+              <caret line="15" column="52" lean-forward="true" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AddStudent.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/web/contrall/AddStudent.java">
+      <file leaf-file-name="DeleteStudet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/web/contrall/DeleteStudet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="87" column="31" lean-forward="false" selection-start-line="87" selection-start-column="31" selection-end-line="87" selection-end-column="31" />
+            <state relative-caret-position="189">
+              <caret line="23" column="32" lean-forward="true" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ModifyStudent.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/example/web/contrall/ModifyStudent.java">
+      <file leaf-file-name="ManagerClassImpl.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/example/daoImp/ManagerClassImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="26" column="35" lean-forward="false" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StudentUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/utils/StudentUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="104" column="51" lean-forward="false" selection-start-line="104" selection-start-column="51" selection-end-line="104" selection-end-column="51" />
+            <state relative-caret-position="212">
+              <caret line="207" column="64" lean-forward="false" selection-start-line="207" selection-start-column="64" selection-end-line="207" selection-end-column="64" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <marker date="1510473418811" expanded="true" signature="544:610" ph="insert into class... " />
+                <marker date="1510473418811" expanded="true" signature="1011:1074" ph="select stude... class" />
+                <marker date="1510473418811" expanded="true" signature="1011:1076" ph="select stude... class" />
+                <marker date="1510473418811" expanded="true" signature="1011:1104" ph="select stude... class" />
+                <marker date="1510473418811" expanded="true" signature="1633:1667" ph="delete from " />
+                <marker date="1510473418811" expanded="true" signature="1633:1683" ph="delete from " />
+                <marker date="1510473418811" expanded="true" signature="1633:1685" ph="delete from " />
+                <marker date="1510473418811" expanded="true" signature="2415:2451" ph="SELECT * fro... class" />
+                <marker date="1510473418811" expanded="true" signature="2415:2464" ph="SELECT * fro... class" />
+                <marker date="1510473418811" expanded="true" signature="2602:2653" ph="SELECT * fro... class" />
+                <marker date="1510473418811" expanded="true" signature="3416:4014" ph="UPDATE class... " />
+                <marker date="1510473418811" expanded="true" signature="3483:3655" ph="UPDATE class... " />
+                <marker date="1510473418811" expanded="true" signature="4388:4417" ph="UPDATE class... " />
+                <marker date="1510473418811" expanded="true" signature="4919:4948" ph="UPDATE class... " />
+                <marker date="1510473418811" expanded="true" signature="5427:5446" ph="SELECT * FRO... class" />
+                <marker date="1510473418811" expanded="true" signature="6433:6469" ph="SELECT * fro... class" />
+                <marker date="1510473418811" expanded="true" signature="6433:6482" ph="SELECT * fro... class" />
+                <marker date="1510473418811" expanded="true" signature="6571:6622" ph="SELECT * fro... class" />
+                <marker date="1510473418811" expanded="true" signature="6711:6765" ph="SELECT * fro... class" />
+                <marker date="1510473418811" expanded="true" signature="6854:6906" ph="SELECT * fro... class" />
+                <marker date="1510473418811" expanded="true" signature="6997:7048" ph="SELECT * fro... class" />
+                <marker date="1510473418811" expanded="true" signature="7906:7952" ph="select total... class" />
+                <marker date="1510473418811" expanded="true" signature="7906:7968" ph="select class... class" />
               </folding>
             </state>
           </provider>
@@ -118,28 +123,38 @@
       <file leaf-file-name="StudentService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/service/StudentService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="12" column="32" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
+            <state relative-caret-position="231">
+              <caret line="13" column="58" lean-forward="true" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="58" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="modifystudent.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/admin/modifystudent.jsp">
+      <file leaf-file-name="FindStudents.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/example/web/contrall/FindStudents.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
-              <caret line="57" column="17" lean-forward="false" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
+            <state relative-caret-position="147">
+              <caret line="23" column="45" lean-forward="false" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="45" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="StudentServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/example/service/impl/StudentServiceImpl.java">
+      <file leaf-file-name="findclass.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/admin/findclass.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="305">
-              <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+            <state relative-caret-position="218">
+              <caret line="33" column="7" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="33" selection-end-column="7" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="resultfindstudent.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/admin/resultfindstudent.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-223">
+              <caret line="39" column="50" lean-forward="false" selection-start-line="39" selection-start-column="50" selection-end-line="39" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -148,25 +163,47 @@
       <file leaf-file-name="ManagerStudentImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/daoImp/ManagerStudentImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-82">
-              <caret line="124" column="65" lean-forward="true" selection-start-line="124" selection-start-column="65" selection-end-line="124" selection-end-column="65" />
+            <state relative-caret-position="246">
+              <caret line="119" column="30" lean-forward="true" selection-start-line="119" selection-start-column="30" selection-end-line="119" selection-end-column="30" />
               <folding>
-                <marker date="1510469309904" expanded="true" signature="595:635" ph="select * fro... student" />
-                <marker date="1510469309904" expanded="true" signature="595:653" ph="select * fro... student" />
-                <marker date="1510469309904" expanded="true" signature="595:655" ph="select * fro... student" />
-                <marker date="1510469309904" expanded="true" signature="1802:1895" ph="select * fro... student" />
-                <marker date="1510469309904" expanded="true" signature="1802:1912" ph="select * fro... student" />
-                <marker date="1510469309904" expanded="true" signature="1802:1915" ph="select * fro... student" />
-                <marker date="1510469309904" expanded="true" signature="3002:3087" ph="insert into student... " />
-                <marker date="1510469309904" expanded="true" signature="4341:4379" ph="DELETE FROM " />
-                <marker date="1510469309904" expanded="true" signature="4341:4397" ph="DELETE FROM " />
-                <marker date="1510469309904" expanded="true" signature="4341:4399" ph="DELETE FROM " />
-                <marker date="1510469309904" expanded="true" signature="4833:5100" ph="UPDATE stude... " />
-                <marker date="1510469309904" expanded="true" signature="4833:5119" ph="UPDATE stude... " />
-                <marker date="1510469309904" expanded="true" signature="4833:5150" ph="UPDATE stude... " />
-                <marker date="1510469309904" expanded="true" signature="4833:5151" ph="UPDATE stude... " />
-                <marker date="1510469309904" expanded="true" signature="6200:6221" ph="SELECT * fro... student" />
+                <marker date="1510472243060" expanded="true" signature="595:635" ph="select * fro... student" />
+                <marker date="1510472243060" expanded="true" signature="595:653" ph="select * fro... student" />
+                <marker date="1510472243060" expanded="true" signature="595:655" ph="select * fro... student" />
+                <marker date="1510472243060" expanded="true" signature="1802:1895" ph="select * fro... student" />
+                <marker date="1510472243060" expanded="true" signature="1802:1912" ph="select * fro... student" />
+                <marker date="1510472243060" expanded="true" signature="1802:1915" ph="select * fro... student" />
+                <marker date="1510472243060" expanded="true" signature="3002:3087" ph="insert into student... " />
+                <marker date="1510472243060" expanded="true" signature="4395:4433" ph="DELETE FROM " />
+                <marker date="1510472243060" expanded="true" signature="4395:4451" ph="DELETE FROM " />
+                <marker date="1510472243060" expanded="true" signature="4395:4453" ph="DELETE FROM " />
+                <marker date="1510472243060" expanded="true" signature="4968:5235" ph="UPDATE stude... " />
+                <marker date="1510472243060" expanded="true" signature="4968:5254" ph="UPDATE stude... " />
+                <marker date="1510472243060" expanded="true" signature="4968:5285" ph="UPDATE stude... " />
+                <marker date="1510472243060" expanded="true" signature="4968:5286" ph="UPDATE stude... " />
+                <marker date="1510472243060" expanded="true" signature="6335:6356" ph="SELECT * fro... student" />
+                <marker date="1510472243060" expanded="true" signature="7628:7667" ph="SELECT * FRO... student" />
+                <marker date="1510472243060" expanded="true" signature="7628:7673" ph="SELECT * FRO... student" />
+                <marker date="1510472243060" expanded="true" signature="7628:7678" ph="SELECT * FRO... student" />
+                <marker date="1510472243060" expanded="true" signature="7628:7692" ph="SELECT * FRO... student" />
+                <marker date="1510472243060" expanded="true" signature="7628:7697" ph="SELECT * FRO... student" />
+                <marker date="1510472243060" expanded="true" signature="7785:7856" ph="SELECT * FRO... student" />
+                <marker date="1510472243060" expanded="true" signature="7945:8018" ph="SELECT * FRO... student" />
+                <marker date="1510472243060" expanded="true" signature="8107:8181" ph="SELECT * FRO... student" />
+                <marker date="1510472243060" expanded="true" signature="8270:8342" ph="SELECT * FRO... student" />
+                <marker date="1510472243060" expanded="true" signature="8431:8498" ph="SELECT * FRO... student" />
+                <marker date="1510472243060" expanded="true" signature="8589:8661" ph="SELECT * FRO... student" />
+                <marker date="1510472243060" expanded="true" signature="8750:8825" ph="SELECT * FRO... student" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="manager.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/admin/manager.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="386">
+              <caret line="100" column="42" lean-forward="false" selection-start-line="100" selection-start-column="42" selection-end-line="100" selection-end-column="42" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -174,18 +211,8 @@
       <file leaf-file-name="ManagerStudent.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/example/dao/ManagerStudent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="12" column="32" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="allstudent.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/admin/allstudent.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="70" column="81" lean-forward="false" selection-start-line="70" selection-start-column="81" selection-end-line="70" selection-end-column="81" />
+            <state relative-caret-position="231">
+              <caret line="13" column="60" lean-forward="false" selection-start-line="13" selection-start-column="60" selection-end-line="13" selection-end-column="60" />
               <folding />
             </state>
           </provider>
@@ -218,10 +245,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/example/domain/Admin.java" />
-        <option value="$PROJECT_DIR$/src/com/example/domain/MyClass.java" />
-        <option value="$PROJECT_DIR$/src/com/example/domain/Teacher.java" />
-        <option value="$PROJECT_DIR$/src/com/example/service/impl/StudentServiceImple.java" />
         <option value="$PROJECT_DIR$/web/addstudent.jsp" />
         <option value="$PROJECT_DIR$/src/com/example/web/contrall/AddClass.java" />
         <option value="$PROJECT_DIR$/src/com/example/web/contrall/AddTeacher.java" />
@@ -253,22 +276,26 @@
         <option value="$PROJECT_DIR$/web/admin/resultfindclass.jsp" />
         <option value="$PROJECT_DIR$/web/admin/findclass.jsp" />
         <option value="$PROJECT_DIR$/src/com/example/web/contrall/FindClass.java" />
-        <option value="$PROJECT_DIR$/src/com/example/daoImp/ManagerClassImpl.java" />
         <option value="$PROJECT_DIR$/src/com/example/domain/Student.java" />
         <option value="$PROJECT_DIR$/web/admin/addstudent.jsp" />
-        <option value="$PROJECT_DIR$/src/com/example/dao/ManagerStudent.java" />
-        <option value="$PROJECT_DIR$/src/com/example/service/StudentService.java" />
-        <option value="$PROJECT_DIR$/src/com/example/service/impl/StudentServiceImpl.java" />
         <option value="$PROJECT_DIR$/src/com/example/web/contrall/AllStudent.java" />
         <option value="$PROJECT_DIR$/src/com/example/web/contrall/DeleteStudet.java" />
-        <option value="$PROJECT_DIR$/web/admin/manager.jsp" />
         <option value="$PROJECT_DIR$/src/com/example/web/contrall/GetStudentMessage.java" />
         <option value="$PROJECT_DIR$/src/com/example/web/contrall/AddStudent.java" />
         <option value="$PROJECT_DIR$/src/com/example/utils/StudentUtil.java" />
         <option value="$PROJECT_DIR$/web/admin/allstudent.jsp" />
         <option value="$PROJECT_DIR$/web/admin/modifystudent.jsp" />
-        <option value="$PROJECT_DIR$/src/com/example/daoImp/ManagerStudentImpl.java" />
         <option value="$PROJECT_DIR$/src/com/example/web/contrall/ModifyStudent.java" />
+        <option value="$PROJECT_DIR$/src/com/example/dao/ManagerStudent.java" />
+        <option value="$PROJECT_DIR$/src/com/example/service/StudentService.java" />
+        <option value="$PROJECT_DIR$/src/com/example/service/impl/StudentServiceImpl.java" />
+        <option value="$PROJECT_DIR$/web/admin/resultfindStudent.jsp" />
+        <option value="$PROJECT_DIR$/src/com/example/web/contrall/FindStudents.java" />
+        <option value="$PROJECT_DIR$/web/admin/findstudent.jsp" />
+        <option value="$PROJECT_DIR$/web/admin/resultfindstudent.jsp" />
+        <option value="$PROJECT_DIR$/src/com/example/daoImp/ManagerStudentImpl.java" />
+        <option value="$PROJECT_DIR$/web/admin/manager.jsp" />
+        <option value="$PROJECT_DIR$/src/com/example/daoImp/ManagerClassImpl.java" />
       </list>
     </option>
   </component>
@@ -749,7 +776,7 @@
       <workItem from="1509792304756" duration="19926000" />
       <workItem from="1509943998988" duration="62110000" />
       <workItem from="1510379145839" duration="2236000" />
-      <workItem from="1510404771401" duration="17550000" />
+      <workItem from="1510404771401" duration="21578000" />
     </task>
     <task id="LOCAL-00001" summary="11月10日的第二次提交 班级的删除">
       <created>1510307116402</created>
@@ -772,11 +799,18 @@
       <option name="project" value="LOCAL" />
       <updated>1510415357288</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="11月12日的第一次提交 学生的删除与修改">
+      <created>1510469708565</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1510469708565</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="158546000" />
+    <option name="totallyTimeSpent" value="162574000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
@@ -828,7 +862,8 @@
     <MESSAGE value="11月10日的第二次提交 班级的删除" />
     <MESSAGE value="11月10日的第三次提交 班级的查找" />
     <MESSAGE value="11月11日的提交 班级的添加" />
-    <option name="LAST_COMMIT_MESSAGE" value="11月11日的提交 班级的添加" />
+    <MESSAGE value="11月12日的第一次提交 学生的删除与修改" />
+    <option name="LAST_COMMIT_MESSAGE" value="11月12日的第一次提交 学生的删除与修改" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -837,28 +872,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/admin/css/bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="236">
-          <caret line="216" column="14" lean-forward="true" selection-start-line="216" selection-start-column="14" selection-end-line="216" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/admin/Js/jquery-3.2.1.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="1" column="993" lean-forward="true" selection-start-line="1" selection-start-column="993" selection-end-line="1" selection-end-column="993" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/admin/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="7" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/web/contrall/Login.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -1022,51 +1035,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/daoImp/ManagerClassImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3066">
-          <caret line="151" column="17" lean-forward="false" selection-start-line="151" selection-start-column="17" selection-end-line="151" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <marker date="1510325221258" expanded="true" signature="544:610" ph="insert into class... " />
-            <marker date="1510325221258" expanded="true" signature="1011:1074" ph="select stude... class" />
-            <marker date="1510325221258" expanded="true" signature="1011:1076" ph="select stude... class" />
-            <marker date="1510325221258" expanded="true" signature="1011:1104" ph="select stude... class" />
-            <marker date="1510325221258" expanded="true" signature="1633:1667" ph="delete from " />
-            <marker date="1510325221258" expanded="true" signature="1633:1683" ph="delete from " />
-            <marker date="1510325221258" expanded="true" signature="1633:1685" ph="delete from " />
-            <marker date="1510325221258" expanded="true" signature="2415:2451" ph="SELECT * fro... class" />
-            <marker date="1510325221258" expanded="true" signature="2415:2464" ph="SELECT * fro... class" />
-            <marker date="1510325221258" expanded="true" signature="2602:2653" ph="SELECT * fro... class" />
-            <marker date="1510325221258" expanded="true" signature="3416:4014" ph="UPDATE class... " />
-            <marker date="1510325221258" expanded="true" signature="3483:3655" ph="UPDATE class... " />
-            <marker date="1510325221258" expanded="true" signature="4388:4417" ph="UPDATE class... " />
-            <marker date="1510325221258" expanded="true" signature="4919:4948" ph="UPDATE class... " />
-            <marker date="1510325221258" expanded="true" signature="5427:5446" ph="SELECT * FRO... class" />
-            <marker date="1510325221258" expanded="true" signature="6433:6469" ph="SELECT * fro... class" />
-            <marker date="1510325221258" expanded="true" signature="6433:6482" ph="SELECT * fro... class" />
-            <marker date="1510325221258" expanded="true" signature="6571:6622" ph="SELECT * fro... class" />
-            <marker date="1510325221258" expanded="true" signature="6711:6765" ph="SELECT * fro... class" />
-            <marker date="1510325221258" expanded="true" signature="6854:6906" ph="SELECT * fro... class" />
-            <marker date="1510325221258" expanded="true" signature="6997:7048" ph="SELECT * fro... class" />
-            <marker date="1510325221258" expanded="true" signature="7906:8010" ph="select count... student" />
-            <marker date="1510325221258" expanded="true" signature="7906:8026" ph="select count... student" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/web/contrall/FindClass.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="294">
           <caret line="24" column="54" lean-forward="false" selection-start-line="24" selection-start-column="54" selection-end-line="24" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/admin/findclass.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="19" column="84" lean-forward="false" selection-start-line="19" selection-start-column="84" selection-end-line="19" selection-end-column="84" />
           <folding />
         </state>
       </provider>
@@ -1119,25 +1091,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/admin/addstudent.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-273">
-          <caret line="12" column="6" lean-forward="true" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#td#0;n#tr#0;n#table#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#td#0;n#tr#1;n#table#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#td#0;n#tr#3;n#table#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#td#0;n#tr#4;n#table#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#td#0;n#tr#5;n#table#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#td#0;n#tr#6;n#table#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#td#0;n#tr#7;n#table#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#td#0;n#tr#8;n#table#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#td#0;n#tr#9;n#table#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#td#0;n#tr#10;n#table#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/admin/allclass.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="155">
@@ -1166,14 +1119,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="84">
           <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/web/contrall/DeleteStudet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="21" column="53" lean-forward="false" selection-start-line="21" selection-start-column="53" selection-end-line="21" selection-end-column="53" />
           <folding />
         </state>
       </provider>
@@ -1234,22 +1179,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/admin/manager.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
-          <caret line="19" column="49" lean-forward="true" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/service/StudentService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="12" column="32" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/utils/StudentUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
@@ -1260,58 +1189,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/admin/allstudent.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="70" column="81" lean-forward="false" selection-start-line="70" selection-start-column="81" selection-end-line="70" selection-end-column="81" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/admin/modifystudent.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="407">
           <caret line="57" column="17" lean-forward="false" selection-start-line="57" selection-start-column="17" selection-end-line="57" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/service/impl/StudentServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="305">
-          <caret line="27" column="5" lean-forward="true" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/daoImp/ManagerStudentImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-82">
-          <caret line="124" column="65" lean-forward="true" selection-start-line="124" selection-start-column="65" selection-end-line="124" selection-end-column="65" />
-          <folding>
-            <marker date="1510469309904" expanded="true" signature="595:635" ph="select * fro... student" />
-            <marker date="1510469309904" expanded="true" signature="595:653" ph="select * fro... student" />
-            <marker date="1510469309904" expanded="true" signature="595:655" ph="select * fro... student" />
-            <marker date="1510469309904" expanded="true" signature="1802:1895" ph="select * fro... student" />
-            <marker date="1510469309904" expanded="true" signature="1802:1912" ph="select * fro... student" />
-            <marker date="1510469309904" expanded="true" signature="1802:1915" ph="select * fro... student" />
-            <marker date="1510469309904" expanded="true" signature="3002:3087" ph="insert into student... " />
-            <marker date="1510469309904" expanded="true" signature="4341:4379" ph="DELETE FROM " />
-            <marker date="1510469309904" expanded="true" signature="4341:4397" ph="DELETE FROM " />
-            <marker date="1510469309904" expanded="true" signature="4341:4399" ph="DELETE FROM " />
-            <marker date="1510469309904" expanded="true" signature="4833:5100" ph="UPDATE stude... " />
-            <marker date="1510469309904" expanded="true" signature="4833:5119" ph="UPDATE stude... " />
-            <marker date="1510469309904" expanded="true" signature="4833:5150" ph="UPDATE stude... " />
-            <marker date="1510469309904" expanded="true" signature="4833:5151" ph="UPDATE stude... " />
-            <marker date="1510469309904" expanded="true" signature="6200:6221" ph="SELECT * fro... student" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/example/dao/ManagerStudent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="12" column="32" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="32" />
           <folding />
         </state>
       </provider>
@@ -1326,9 +1207,167 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/web/contrall/ModifyStudent.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="26" column="35" lean-forward="false" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
+        <state relative-caret-position="99">
+          <caret line="29" column="37" lean-forward="true" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/findstudent.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-139">
+          <caret line="19" column="49" lean-forward="true" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/addstudent.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="30" column="13" lean-forward="true" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#td#0;n#tr#0;n#table#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/allstudent.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="78" column="8" lean-forward="true" selection-start-line="36" selection-start-column="0" selection-end-line="78" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/web/contrall/FindStudents.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="23" column="45" lean-forward="false" selection-start-line="23" selection-start-column="30" selection-end-line="23" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/findclass.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="33" column="7" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="33" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/resultfindstudent.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-223">
+          <caret line="39" column="50" lean-forward="false" selection-start-line="39" selection-start-column="50" selection-end-line="39" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/admin/manager.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="386">
+          <caret line="100" column="42" lean-forward="false" selection-start-line="100" selection-start-column="42" selection-end-line="100" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/daoImp/ManagerStudentImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="119" column="30" lean-forward="true" selection-start-line="119" selection-start-column="30" selection-end-line="119" selection-end-column="30" />
+          <folding>
+            <marker date="1510472243060" expanded="true" signature="595:635" ph="select * fro... student" />
+            <marker date="1510472243060" expanded="true" signature="595:653" ph="select * fro... student" />
+            <marker date="1510472243060" expanded="true" signature="595:655" ph="select * fro... student" />
+            <marker date="1510472243060" expanded="true" signature="1802:1895" ph="select * fro... student" />
+            <marker date="1510472243060" expanded="true" signature="1802:1912" ph="select * fro... student" />
+            <marker date="1510472243060" expanded="true" signature="1802:1915" ph="select * fro... student" />
+            <marker date="1510472243060" expanded="true" signature="3002:3087" ph="insert into student... " />
+            <marker date="1510472243060" expanded="true" signature="4395:4433" ph="DELETE FROM " />
+            <marker date="1510472243060" expanded="true" signature="4395:4451" ph="DELETE FROM " />
+            <marker date="1510472243060" expanded="true" signature="4395:4453" ph="DELETE FROM " />
+            <marker date="1510472243060" expanded="true" signature="4968:5235" ph="UPDATE stude... " />
+            <marker date="1510472243060" expanded="true" signature="4968:5254" ph="UPDATE stude... " />
+            <marker date="1510472243060" expanded="true" signature="4968:5285" ph="UPDATE stude... " />
+            <marker date="1510472243060" expanded="true" signature="4968:5286" ph="UPDATE stude... " />
+            <marker date="1510472243060" expanded="true" signature="6335:6356" ph="SELECT * fro... student" />
+            <marker date="1510472243060" expanded="true" signature="7628:7667" ph="SELECT * FRO... student" />
+            <marker date="1510472243060" expanded="true" signature="7628:7673" ph="SELECT * FRO... student" />
+            <marker date="1510472243060" expanded="true" signature="7628:7678" ph="SELECT * FRO... student" />
+            <marker date="1510472243060" expanded="true" signature="7628:7692" ph="SELECT * FRO... student" />
+            <marker date="1510472243060" expanded="true" signature="7628:7697" ph="SELECT * FRO... student" />
+            <marker date="1510472243060" expanded="true" signature="7785:7856" ph="SELECT * FRO... student" />
+            <marker date="1510472243060" expanded="true" signature="7945:8018" ph="SELECT * FRO... student" />
+            <marker date="1510472243060" expanded="true" signature="8107:8181" ph="SELECT * FRO... student" />
+            <marker date="1510472243060" expanded="true" signature="8270:8342" ph="SELECT * FRO... student" />
+            <marker date="1510472243060" expanded="true" signature="8431:8498" ph="SELECT * FRO... student" />
+            <marker date="1510472243060" expanded="true" signature="8589:8661" ph="SELECT * FRO... student" />
+            <marker date="1510472243060" expanded="true" signature="8750:8825" ph="SELECT * FRO... student" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/service/StudentService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="13" column="58" lean-forward="true" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/service/impl/StudentServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="15" column="52" lean-forward="true" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/web/contrall/DeleteStudet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="23" column="32" lean-forward="true" selection-start-line="23" selection-start-column="32" selection-end-line="23" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/dao/ManagerStudent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="13" column="60" lean-forward="false" selection-start-line="13" selection-start-column="60" selection-end-line="13" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/example/daoImp/ManagerClassImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="212">
+          <caret line="207" column="64" lean-forward="false" selection-start-line="207" selection-start-column="64" selection-end-line="207" selection-end-column="64" />
+          <folding>
+            <marker date="1510473418811" expanded="true" signature="544:610" ph="insert into class... " />
+            <marker date="1510473418811" expanded="true" signature="1011:1074" ph="select stude... class" />
+            <marker date="1510473418811" expanded="true" signature="1011:1076" ph="select stude... class" />
+            <marker date="1510473418811" expanded="true" signature="1011:1104" ph="select stude... class" />
+            <marker date="1510473418811" expanded="true" signature="1633:1667" ph="delete from " />
+            <marker date="1510473418811" expanded="true" signature="1633:1683" ph="delete from " />
+            <marker date="1510473418811" expanded="true" signature="1633:1685" ph="delete from " />
+            <marker date="1510473418811" expanded="true" signature="2415:2451" ph="SELECT * fro... class" />
+            <marker date="1510473418811" expanded="true" signature="2415:2464" ph="SELECT * fro... class" />
+            <marker date="1510473418811" expanded="true" signature="2602:2653" ph="SELECT * fro... class" />
+            <marker date="1510473418811" expanded="true" signature="3416:4014" ph="UPDATE class... " />
+            <marker date="1510473418811" expanded="true" signature="3483:3655" ph="UPDATE class... " />
+            <marker date="1510473418811" expanded="true" signature="4388:4417" ph="UPDATE class... " />
+            <marker date="1510473418811" expanded="true" signature="4919:4948" ph="UPDATE class... " />
+            <marker date="1510473418811" expanded="true" signature="5427:5446" ph="SELECT * FRO... class" />
+            <marker date="1510473418811" expanded="true" signature="6433:6469" ph="SELECT * fro... class" />
+            <marker date="1510473418811" expanded="true" signature="6433:6482" ph="SELECT * fro... class" />
+            <marker date="1510473418811" expanded="true" signature="6571:6622" ph="SELECT * fro... class" />
+            <marker date="1510473418811" expanded="true" signature="6711:6765" ph="SELECT * fro... class" />
+            <marker date="1510473418811" expanded="true" signature="6854:6906" ph="SELECT * fro... class" />
+            <marker date="1510473418811" expanded="true" signature="6997:7048" ph="SELECT * fro... class" />
+            <marker date="1510473418811" expanded="true" signature="7906:7952" ph="select total... class" />
+            <marker date="1510473418811" expanded="true" signature="7906:7968" ph="select class... class" />
+          </folding>
         </state>
       </provider>
     </entry>

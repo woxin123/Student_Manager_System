@@ -105,7 +105,9 @@ public class ManagerStudentImpl implements ManagerStudent {
         Connection conn = mysql.getConnection();
         try {
             Statement stmt = conn.createStatement();
+            Student student = findStudent(studentId);
             stmt.execute("DELETE FROM student where student_id='" + studentId + "';");
+            new ManagerClassImpl().minusClassStudent(student.getStudentClass());
             isOK = true;
         } catch (SQLException e) {
             e.printStackTrace();
@@ -169,6 +171,52 @@ public class ManagerStudentImpl implements ManagerStudent {
             e.printStackTrace();
         }
         return allStudents;
+    }
+
+    @Override
+    public List<Student> findSomeStudent(String role, String type) {
+        List<Student> someStudent = new LinkedList<>();
+        MySQLCoonnection mysql = new MySQLCoonnection();
+        Connection conn = mysql.getConnection();
+        try {
+            Statement stmt = conn.createStatement();
+            ResultSet rs = null;
+            if (type.equals("ID")) {
+                rs = stmt.executeQuery("SELECT * FROM student WHERE student_id LIKE '"+ "%" + role +  "%" +"';");
+            } else if (type.equals("姓名")){
+                rs = stmt.executeQuery("SELECT * FROM student WHERE student_name LIKE '"+ "%" + role +  "%" +"';");
+            } else if (type.equals("性别")) {
+                rs = stmt.executeQuery("SELECT * FROM student WHERE student_gender LIKE '"+ "%" + role +  "%" +"';");
+            } else if (type.equals("学院")) {
+                rs = stmt.executeQuery("SELECT * FROM student WHERE student_college LIKE '"+ "%" + role +  "%" +"';");
+            } else if (type.equals("专业")) {
+                rs = stmt.executeQuery("SELECT * FROM student WHERE student_major LIKE '"+ "%" + role +  "%" +"';");
+            } else if (type.equals("班级")) {
+                rs = stmt.executeQuery("SELECT * FROM student WHERE class_id LIKE '"+ "%" + role +  "%" +"';");
+            } else if (type.equals("入学年份")) {
+                rs = stmt.executeQuery("SELECT * FROM student WHERE admissionDate LIKE '"+ "%" + role +  "%" +"';");
+            } else if (type.equals("宿舍")) {
+                rs = stmt.executeQuery("SELECT * FROM student WHERE student_dormitor LIKE '"+ "%" + role +  "%" +"';");
+            }
+            while (rs.next()) {
+                Student student = new Student();
+                student.setStudentId(rs.getString(1));
+                student.setName(rs.getString(2));
+                student.setGender(rs.getString(3).charAt(0));
+                student.setAge(rs.getInt(4));
+                student.setCollege(rs.getString(5));
+                student.setStudentClass(rs.getString(6));
+                student.setMajor(rs.getString(7));
+                student.setAdmissionDate(rs.getString(8));
+                student.setPhone(rs.getString(9));
+                student.setAddress(rs.getString(10));
+                student.setDormitory(rs.getString(11));
+                someStudent.add(student);
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+        return someStudent;
     }
 
     private String setDefaultPassword() {

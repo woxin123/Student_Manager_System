@@ -98,7 +98,7 @@
                         class="icon-caret-right">添加学生</span></a>
             </li>
             <li>
-                <a href="" target="right"><span
+                <a href="./findstudent.jsp" target="right"><span
                         class="icon-caret-right">查找学生</span></a>
             </li>
         </ul>

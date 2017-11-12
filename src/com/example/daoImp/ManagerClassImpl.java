@@ -205,8 +205,7 @@ public class ManagerClassImpl implements ManagerClass {
         Connection conn = mysql.getConnection();
         try {
             Statement stmt = conn.createStatement();
-            ResultSet rs = stmt.executeQuery("select count(student_id) as " +
-                    "student_num from student where student.class_id = '" + classId + "';");
+            ResultSet rs = stmt.executeQuery("select class_total from class WHERE class_id='" + classId + "';");
             if (rs.next()) {
                 return rs.getInt(1);
             }

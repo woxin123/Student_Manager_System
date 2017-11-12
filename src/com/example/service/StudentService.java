@@ -11,4 +11,5 @@ public interface StudentService {
     Student find(String studentId);
     Student find(String studentId, String password);
     List<Student> allStudents();
+    List<Student> findSomeStudent(String role, String type);
 }
